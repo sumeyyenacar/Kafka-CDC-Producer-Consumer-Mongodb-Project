@@ -39,6 +39,8 @@ docker compose up --build
 ```
 <img src="./images/build.png" alt="Resim3">
 
+Terminalinizde yukarıdaki gibi çalışmaya başlanacaktır.
+
 Uygulamayı kapatmak isterseniz
 ```sh
 docker compose down
