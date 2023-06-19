@@ -14,10 +14,7 @@
 Python programlama dilini kullanarak MongoDB veritabanında bir collection’da
 oluşan yeni dökümanları sorgulayıp Apache Kafka’ya herhangi bir X topic altına bir JSON
 mesajını üreten (procuder) ve bu X topic’deki mesajları tüketen (consumer) uygulamalar geliştirilmiştir.
-
-
 <img src="./images/mimari.png" alt="Resim3">
-
 
 Bu uygulama, veritabanındaki değişiklikleri yakalayarak bunları Kafka mesaj kuyruğuna aktarır. Bu sayede, veritabanındaki güncellemeleri gerçek zamanlı olarak takip etmek ve bu verileri farklı sistemlere iletmek mümkün olur. Proje, Kafka'nın güçlü ve ölçeklenebilir mesajlaşma sistemi özelliklerini kullanarak veri entegrasyonu ve senkronizasyonunu kolaylaştırır.
 
@@ -40,8 +37,7 @@ yazın. Ardından projeyi çalıştırmak için
 ```sh
 docker compose up --build
 ```
-![](.images/build.png)
-
+<img src="./images/build.png" alt="Resim3">
 Uygulamayı kapatmak isterseniz
 ```sh
 docker compose down
