@@ -14,13 +14,10 @@
 Python programlama dilini kullanarak MongoDB veritabanında bir collection’da
 oluşan yeni dökümanları sorgulayıp Apache Kafka’ya herhangi bir X topic altına bir JSON
 mesajını üreten (procuder) ve bu X topic’deki mesajları tüketen (consumer) uygulamalar geliştirilmiştir.
-<<<<<<< HEAD
 
-![](.images/mimari.png)
 
-=======
 <img src="./images/mimari.png" alt="Resim3">
->>>>>>> fb55a19d78977627f82b5943ef52db41f0a796a7
+
 
 Bu uygulama, veritabanındaki değişiklikleri yakalayarak bunları Kafka mesaj kuyruğuna aktarır. Bu sayede, veritabanındaki güncellemeleri gerçek zamanlı olarak takip etmek ve bu verileri farklı sistemlere iletmek mümkün olur. Proje, Kafka'nın güçlü ve ölçeklenebilir mesajlaşma sistemi özelliklerini kullanarak veri entegrasyonu ve senkronizasyonunu kolaylaştırır.
 
