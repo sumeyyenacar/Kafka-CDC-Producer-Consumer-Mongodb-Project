@@ -24,8 +24,8 @@ Bu projeye katkıda bulunmak istediğiniz için teşekkür ederiz! Bu belge, pro
 
 ## Lisans
 
-Bu proje [PROJE LİSANSI] altında lisanslanmıştır. Katkıda bulunarak, katkılarınızın bu lisansa tabi olduğunu kabul etmiş olursunuz.
+Bu proje MIT altında lisanslanmıştır. Katkıda bulunarak, katkılarınızın bu lisansa tabi olduğunu kabul etmiş olursunuz.
 
 ---
 
-Bu Contributing.md dosyası, [PROJE ADI] için genel bir rehber niteliğindedir. Projeye özgü detayları ekleyebilir ve düzenleyebilirsiniz.
+Bu Contributing.md dosyası, Kafka-CDC-Producer-Consumer-Mongodb-Project için genel bir rehber niteliğindedir. Projeye özgü detayları ekleyebilir ve düzenleyebilirsiniz.
